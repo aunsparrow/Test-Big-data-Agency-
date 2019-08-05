@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>click logo facebook
+
+result = go to facebook page big data agency</description>
+   <name>TestCase3_ClickLogoFacebook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2a67df4-5b50-4db1-999d-9dbcea6475c9</testCaseGuid>
+</TestCaseEntity>

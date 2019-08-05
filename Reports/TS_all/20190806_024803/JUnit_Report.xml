@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TS_all" time="64" tests="2" failures="1" errors="0">
+    <testsuite name="TS_all" tests="2" failures="1" errors="0" time="64" timestamp="2019-08-06 02:48:07" hostname="aunap - DESKTOP-QCPA044.local" id="Test Suites/TS_all">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\aunap\\git\\New folder\\Test-Big-data-Agency-\\Reports\\TS_all\\20190806_024803"/>
+            <property name="logFiles" value="C:\\Users\\aunap\\git\\New folder\\Test-Big-data-Agency-\\Reports\\TS_all\\20190806_024803\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="aunap - DESKTOP-QCPA044.local"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+            <property name="browser" value="Chrome 76.0.3809.87"/>
+            <property name="hostAddress" value="192.168.1.23"/>
+            <property name="sessionId" value="ab99690cf111c01741b46a29b60591f4"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/TestCase1_ChangePagePortfolioToHome" classname="Test Cases/TestCase1_ChangePagePortfolioToHome" status="FAILED">
+            <failure type="FAILED" message="Test Cases/TestCase1_ChangePagePortfolioToHome FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bda.co.th/index.html' and expected text 'https://bda.co.th/' are not matched&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)&#xD;&#xA;&#x9;at TestCase1_ChangePagePortfolioToHome.run(TestCase1_ChangePagePortfolioToHome:39)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1565034484827.run(TempTestSuite1565034484827.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-08-06 02:48:08 - [TEST_CASE][FAILED] - Test Cases/TestCase1_ChangePagePortfolioToHome: Test Cases/TestCase1_ChangePagePortfolioToHome FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bda.co.th/index.html' and expected text 'https://bda.co.th/' are not matched&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)&#xD;
+	at TestCase1_ChangePagePortfolioToHome.run(TestCase1_ChangePagePortfolioToHome:39)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565034484827.run(TempTestSuite1565034484827.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-08-06 02:48:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-06 02:48:08 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-06 02:48:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-08-06 02:48:13 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-06 02:48:13 - [TEST_STEP][PASSED] - navigateToUrl("https://bda.co.th/portfolio"): Navigate to 'https://bda.co.th/portfolio' successfully&#xD;
+&#xD;
+2019-08-06 02:48:19 - [MESSAGE][PASSED] - Navigate to 'https://bda.co.th/portfolio' successfully&#xD;
+&#xD;
+2019-08-06 02:48:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:20 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:20 - [TEST_STEP][PASSED] - click(findTestObject("TC1_ChangPagePortfolioToHome/a_Home")): Object: 'Object Repository/TC1_ChangPagePortfolioToHome/a_Home' is clicked on&#xD;
+&#xD;
+2019-08-06 02:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC1_ChangPagePortfolioToHome/a_Home' is clicked on&#xD;
+&#xD;
+2019-08-06 02:48:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:21 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:21 - [TEST_STEP][PASSED] - urlget = getUrl(): Current window's url is: 'https://bda.co.th/index.html'&#xD;
+&#xD;
+2019-08-06 02:48:21 - [MESSAGE][PASSED] - Current window's url is: 'https://bda.co.th/index.html'&#xD;
+&#xD;
+2019-08-06 02:48:21 - [TEST_STEP][PASSED] - urltest = "https://bda.co.th/": null&#xD;
+&#xD;
+2019-08-06 02:48:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:22 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:22 - [TEST_STEP][PASSED] - if (urlget.equals(urltest)): null&#xD;
+&#xD;
+2019-08-06 02:48:22 - [TEST_STEP][PASSED] - else: Execute JavaScript 'alert('Test Fail')' successfully&#xD;
+&#xD;
+2019-08-06 02:48:22 - [TEST_STEP][PASSED] - executeJavaScript("alert('Test Fail')", null): Execute JavaScript 'alert('Test Fail')' successfully&#xD;
+&#xD;
+2019-08-06 02:48:22 - [MESSAGE][PASSED] - Execute JavaScript 'alert('Test Fail')' successfully&#xD;
+&#xD;
+2019-08-06 02:48:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:23 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:23 - [TEST_STEP][FAILED] - verifyMatch(urlget, "https://bda.co.th/", false): Unable to verify match between actual text 'https://bda.co.th/index.html' and expected text 'https://bda.co.th/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bda.co.th/index.html' and expected text 'https://bda.co.th/' are not matched&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)&#xD;
+	at TestCase1_ChangePagePortfolioToHome.run(TestCase1_ChangePagePortfolioToHome:39)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565034484827.run(TempTestSuite1565034484827.groovy:35)&#xD;
+)&#xD;
+&#xD;
+2019-08-06 02:48:23 - [MESSAGE][FAILED] - Unable to verify match between actual text 'https://bda.co.th/index.html' and expected text 'https://bda.co.th/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bda.co.th/index.html' and expected text 'https://bda.co.th/' are not matched&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)&#xD;
+	at TestCase1_ChangePagePortfolioToHome.run(TestCase1_ChangePagePortfolioToHome:39)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565034484827.run(TempTestSuite1565034484827.groovy:35)&#xD;
+)</system-out>
+            <system-err>2019-08-06 02:48:08 - [TEST_CASE][FAILED] - Test Cases/TestCase1_ChangePagePortfolioToHome: Test Cases/TestCase1_ChangePagePortfolioToHome FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bda.co.th/index.html' and expected text 'https://bda.co.th/' are not matched&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xD;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)&#xD;
+	at TestCase1_ChangePagePortfolioToHome.run(TestCase1_ChangePagePortfolioToHome:39)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1565034484827.run(TempTestSuite1565034484827.groovy:35)</system-err>
+        </testcase>
+        <testcase name="Test Cases/TestCase2_HomeGotoPageportfolio" classname="Test Cases/TestCase2_HomeGotoPageportfolio" status="PASSED">
+            <system-out>2019-08-06 02:48:24 - [TEST_CASE][PASSED] - Test Cases/TestCase2_HomeGotoPageportfolio: Test Cases/TestCase2_HomeGotoPageportfolio&#xD;
+&#xD;
+2019-08-06 02:48:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-06 02:48:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-08-06 02:48:24 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-06 02:48:31 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-06 02:48:31 - [TEST_STEP][PASSED] - navigateToUrl("https://bda.co.th/"): Navigate to 'https://bda.co.th/' successfully&#xD;
+&#xD;
+2019-08-06 02:48:44 - [MESSAGE][PASSED] - Navigate to 'https://bda.co.th/' successfully&#xD;
+&#xD;
+2019-08-06 02:48:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:45 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC2_HomeGotoPagePortfolio/a_Portfolio")): Object: 'Object Repository/TC2_HomeGotoPagePortfolio/a_Portfolio' is clicked on&#xD;
+&#xD;
+2019-08-06 02:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC2_HomeGotoPagePortfolio/a_Portfolio' is clicked on&#xD;
+&#xD;
+2019-08-06 02:48:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:48 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:48 - [TEST_STEP][PASSED] - geturl = getUrl(): Current window's url is: 'https://bda.co.th/portfolio'&#xD;
+&#xD;
+2019-08-06 02:48:48 - [MESSAGE][PASSED] - Current window's url is: 'https://bda.co.th/portfolio'&#xD;
+&#xD;
+2019-08-06 02:48:48 - [TEST_STEP][PASSED] - urltest = "https://bda.co.th/portfolio": null&#xD;
+&#xD;
+2019-08-06 02:48:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:49 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:49 - [TEST_STEP][PASSED] - if (geturl.equals(urltest)): Pass&#xD;
+&#xD;
+2019-08-06 02:48:49 - [TEST_STEP][PASSED] - comment("Pass"): Pass&#xD;
+&#xD;
+2019-08-06 02:48:49 - [MESSAGE][INFO] - Pass&#xD;
+&#xD;
+2019-08-06 02:48:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:50 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:48:50 - [TEST_STEP][PASSED] - verifyMatch(geturl, "https://bda.co.th/portfolio", false): Actual text 'https://bda.co.th/portfolio' and expected text 'https://bda.co.th/portfolio' are matched &#xD;
+&#xD;
+2019-08-06 02:48:50 - [MESSAGE][PASSED] - Actual text 'https://bda.co.th/portfolio' and expected text 'https://bda.co.th/portfolio' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/TestCase3_ClickLogoFacebook" classname="Test Cases/TestCase3_ClickLogoFacebook" status="PASSED">
+            <system-out>2019-08-06 02:48:50 - [TEST_CASE][PASSED] - Test Cases/TestCase3_ClickLogoFacebook: Test Cases/TestCase3_ClickLogoFacebook&#xD;
+&#xD;
+2019-08-06 02:48:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-06 02:48:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-08-06 02:48:51 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-06 02:48:54 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-08-06 02:48:54 - [TEST_STEP][PASSED] - navigateToUrl("https://bda.co.th/"): Navigate to 'https://bda.co.th/' successfully&#xD;
+&#xD;
+2019-08-06 02:48:59 - [MESSAGE][PASSED] - Navigate to 'https://bda.co.th/' successfully&#xD;
+&#xD;
+2019-08-06 02:48:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:00 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC3_clickLogoFacebook/i_adminbdacoth_fab fa-facebook fa-2x")): Object: 'Object Repository/TC3_clickLogoFacebook/i_adminbdacoth_fab fa-facebook fa-2x' is clicked on&#xD;
+&#xD;
+2019-08-06 02:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC3_clickLogoFacebook/i_adminbdacoth_fab fa-facebook fa-2x' is clicked on&#xD;
+&#xD;
+2019-08-06 02:49:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:01 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:01 - [TEST_STEP][PASSED] - switchToWindowUrl("https://www.facebook.com/bda.co.th/"): Switched to window with url: 'https://www.facebook.com/bda.co.th/'&#xD;
+&#xD;
+2019-08-06 02:49:03 - [MESSAGE][PASSED] - Switched to window with url: 'https://www.facebook.com/bda.co.th/'&#xD;
+&#xD;
+2019-08-06 02:49:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:04 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:04 - [TEST_STEP][PASSED] - urlget = getUrl(): Current window's url is: 'https://www.facebook.com/bda.co.th/'&#xD;
+&#xD;
+2019-08-06 02:49:10 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/bda.co.th/'&#xD;
+&#xD;
+2019-08-06 02:49:10 - [TEST_STEP][PASSED] - out.println(urlget): null&#xD;
+&#xD;
+2019-08-06 02:49:10 - [TEST_STEP][PASSED] - urltest = "https://www.facebook.com/bda.co.th/": null&#xD;
+&#xD;
+2019-08-06 02:49:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:11 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:11 - [TEST_STEP][PASSED] - if (urlget.equals(urltest)): Pass&#xD;
+&#xD;
+2019-08-06 02:49:11 - [TEST_STEP][PASSED] - comment("Pass"): Pass&#xD;
+&#xD;
+2019-08-06 02:49:11 - [MESSAGE][INFO] - Pass&#xD;
+&#xD;
+2019-08-06 02:49:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:12 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-06 02:49:12 - [TEST_STEP][PASSED] - verifyMatch(urlget, "https://www.facebook.com/bda.co.th/", false): Actual text 'https://www.facebook.com/bda.co.th/' and expected text 'https://www.facebook.com/bda.co.th/' are matched &#xD;
+&#xD;
+2019-08-06 02:49:12 - [MESSAGE][PASSED] - Actual text 'https://www.facebook.com/bda.co.th/' and expected text 'https://www.facebook.com/bda.co.th/' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-06 02:48:07 - [TEST_SUITE][INCOMPLETE] - TS_all: null</system-out>
+        <system-err>2019-08-06 02:48:07 - [TEST_SUITE][INCOMPLETE] - TS_all: null</system-err>
+    </testsuite>
+</testsuites>

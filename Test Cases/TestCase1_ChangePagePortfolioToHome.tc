@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>click Home in page Portfolio
+Step 
+1.page Portfolio
+2.click HOME under menu in page Portfolio
+result = page HOME</description>
+   <name>TestCase1_ChangePagePortfolioToHome</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11fb07d9-88fa-433c-b133-b087ef3f2efa</testCaseGuid>
+</TestCaseEntity>
